@@ -22,15 +22,7 @@ pauseButton.addEventListener('click', () => {
 })
 stopButton.addEventListener('click', () => {
   clearInterval(interval)
-  hours = 00
-  minutes = 00
-  seconds = 00
-  milliseconds = 00
-
-  hourElement.innerText = '00'
-  minuteElement.innerText = '00'
-  secondElement.innerText = '00'
-  millisecondElement.innerText = '00'
+  dopSropButton()
 })
 
 function startTimer() {
@@ -73,4 +65,16 @@ function startTimer() {
     minutes = 0
     minuteElement.innerText = '0' + minutes
   }
+}
+
+function dopSropButton() {
+  hours = 00
+  minutes = 00
+  seconds = 00
+  milliseconds = 00
+
+  hourElement.innerText = '00'
+  minuteElement.innerText = '00'
+  secondElement.innerText = '00'
+  millisecondElement.innerText = '00'
 }
