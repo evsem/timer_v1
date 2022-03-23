@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.wrapper {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*--------------------------------------------------- */
+
+.timer_block {
+  width: 150px;
+  border: 3px solid grey;
+  border-radius: 5px;
+}
+
+.time {
+  height: 150px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 95px;
+  color: black;
+}
+
+.hours {
+}
+
+.title {
+  background-color: lightblue;
+  padding: 5px;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.minutes {
+}
+
+.seconds {
+}
+
+.milliseconds {
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+/*--------------------------------------------------- */
+
+.btn {
+  width: 80px;
+  padding: 3px;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.start {
+  background-color: lightblue;
+}
+
+.pause {
+  background-color: lightcoral;
+}
+
+.stop {
+  background-color: lightpink;
+}
