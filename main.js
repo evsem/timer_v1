@@ -17,6 +17,9 @@ startButton.addEventListener('click', () => {
   clearInterval(interval)
   interval = setInterval(startTimer, 10)
 })
+pauseButton.addEventListener('click', () => {
+  clearInterval(interval)
+})
 
 function startTimer() {
   milliseconds++
