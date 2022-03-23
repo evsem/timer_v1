@@ -20,6 +20,18 @@ startButton.addEventListener('click', () => {
 pauseButton.addEventListener('click', () => {
   clearInterval(interval)
 })
+stopButton.addEventListener('click', () => {
+  clearInterval(interval)
+  hours = 00
+  minutes = 00
+  seconds = 00
+  milliseconds = 00
+
+  hourElement.innerText = '00'
+  minuteElement.innerText = '00'
+  secondElement.innerText = '00'
+  millisecondElement.innerText = '00'
+})
 
 function startTimer() {
   milliseconds++
